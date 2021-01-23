@@ -29,7 +29,7 @@ $(document).keypress(function () {
     }
 });
 
-$(document).on("tap", function () {
+$("body").on("tap", function () {
     if (!started) {
         $("#level-title").text("Level " + level);
 
