@@ -29,15 +29,17 @@ $(document).keypress(function () {
     }
 });
 
-$("body").on("tap", function () {
-    if (!started) {
-        $("#level-title").text("Level " + level);
+//$("#level-title").on("tap", function () {
+//    $(this).hide();
 
-        nextSequence();
+//    if (!started) {
+//        $("#level-title").text("Level " + level);
 
-        started = true;
-    }
-});
+//        nextSequence();
+
+//        started = true;
+//    }
+//});
 
 function nextSequence() {
     userClickedPattern = [];
